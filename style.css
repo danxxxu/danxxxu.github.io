@@ -44,7 +44,7 @@ a:hover {
 
 div.content {
   position: absolute;
-  text-align: justify;
+  text-align: left;
   padding: 20px;
   top: 8.3%;
   width: 56.6%;
@@ -55,7 +55,7 @@ div.content {
   /* For tablets: */
   div.content {
     position: absolute;
-    text-align: justify;
+    text-align: left;
     padding: 5px;
     width: 80%;
     left: 10%;
@@ -65,7 +65,7 @@ div.content {
   /* For mobile phones: */
   div.content {
     position: absolute;
-    text-align: justify;
+    text-align: left;
     width: 90%;
     padding: 0px;
     left: 5%;
