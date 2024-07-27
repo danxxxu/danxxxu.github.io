@@ -16,7 +16,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
   font-weight: normal;
 }
@@ -46,7 +47,7 @@ div.content {
   position: absolute;
   text-align: left;
   padding: 20px;
-  top: 8.3%;
+  top: 5.3%;
   width: 56.6%;
   left: 21.7%;
 }
