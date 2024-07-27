@@ -46,8 +46,7 @@ a:hover {
 div.content {
   position: absolute;
   text-align: left;
-  padding: 20px;
-  top: 5.3%;
+  padding: 80px 20px 80px 20px;
   width: 56.6%;
   left: 21.7%;
 }
