@@ -51,6 +51,33 @@ div.content {
   left: 21.7%;
 }
 
+#phd-window {
+  display: none;
+  position: fixed;
+  font-size: 16px;
+  width: 30%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: #f5e7fe;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}  
+
+#close {
+  position: absolute;
+  padding: 0;
+  right: 3px;
+  top: 3px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  background: none;
+}
+
 @media only screen and (max-width: 868px) {
   /* For tablets: */
   div.content {
