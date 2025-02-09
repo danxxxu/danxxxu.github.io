@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Face Choir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    id="favicon"
+    rel="icon"
+    href="https://cdn.glitch.global/9f185785-b86c-49bc-814e-3f21ca824fbd/favicon.ico?v=1655276293402"
+    type="image/x-icon"
+  />
+  <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div id="profile">
+        <img style="border-radius: 50%; width: 60px; height: 60px; object-fit: cover; float: left; margin-right: 20px;" src="resources/profile.jpg" alt="a chinese woman with short hair wearing a virtual reality headset looking at her hands through the sensors" />
+        <div id="name">Dan Xu</div>
+      </div>
+      <div id="nav">
+        &nbsp;<span><a href="/about.html">About</a></span>&nbsp;&nbsp;&nbsp;<span><a href="/index.html">Projects</a></span>
+      </div>
+    </div>
+    <div class="content">
+      <div class="title">Face Choir (2023)</div>
+      <p><i>Face Choir</i> is a prototype system for networked collective interaction that allows spatially distributed participants to generate vowel sounds using their facial movements, simulating a collective choir singing experience while being apart.</p>
+      <p><a href="https://face-choir.glitch.me/audience" target="_blank"> Try out <i>Face Choir</i></a></p>
+      <div class="img_project">
+      <img src="resources/projects/face/scream.png" alt="three participants scream in a Zoom meeting" />
+      <img src="resources/projects/face/facechoir-diagram.jpeg" alt="a diagram illustrating the information flow in the prototype" />
+      </div>
+      <p>Participants can join the performance by entering a webpage with access to their cameras. On this page, the live camera image is displayed and a face-recognition system is at work. Once the recognition system detects the face of the participant, it tracks their mouth movement and uses this information to control a vowel sound synthesizer. The position of the mouth (x, y) changes the pitch (the higher up on the y-axis the higher the pitch) and the quality of the vowel sound (from 'ee' to 'a' to 'o' as the mouth move from left to the middle to right). The openness of the mouth changes the volume of the sound (the bigger the mouth opens the loud the sound gets). Meanwhile, the mouth data are send to all the other participants joining at the same time, allowing everyone to perform, or sing, in harmony across the distance.</p>
+      <div class="img_project">
+        <img src="resources/projects/face/interface.png" alt="a screenshot of a browser window with a display of live camera image of a woman with a circle draw around her mouth" />
+      </div>
+      <p>The participant only sees their own video image with a circle providing visual feedback about their mouth movements, the presence of other participants are only perceived via sounds.</p>
+      <p>
+        <i>Face Choir</i> is largely inspired by the exercises and technologies during the Experiments in Networked Performance course from <a href="https://sfpc.io/" target="_blank">School for Poetic Computation</a> (taught by Tiri Kananuruk & Todd Anderson).
+      </p>
+  </div>
+    <div class="credit">&#169; Dan Xu 2025. All rights reserved.</div>
+  </body>
+</html>
